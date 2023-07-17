@@ -1,0 +1,81 @@
+header{
+    background-color: fffff;
+    color:#1693A5;
+    padding: 20px;
+    margin-bottom: 40px; 
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  .logo h2 {
+    margin: 0;
+  }
+  .centerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 100vh;*/
+    min-height: calc(100vh - 60px);
+    flex-direction:column;
+  }
+  
+  .contentBox {
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contentBox h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contentBox p {
+    margin: 0;
+  }
+  /* Existing CSS styles for centerBox, contentBox, and other elements... */
+
+.projectBox {
+    text-align: center;
+  }
+  
+  .projectBox h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .projectBox div {
+    margin-top: 20px;
+  }
+  
+  .projectBox img {
+    max-width: 100%;
+  }
+  
