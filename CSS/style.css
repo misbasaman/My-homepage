@@ -42,7 +42,7 @@ nav ul {
     align-items: center;
     /*min-height: 100vh;*/
     min-height: calc(100vh - 60px);
-    flex-direction:column;
+    flex-direction:column; /*stck content vertically */
   }
   
   .contentBox {
@@ -62,20 +62,48 @@ nav ul {
   }
   /* Existing CSS styles for centerBox, contentBox, and other elements... */
 
-.projectBox {
+  .projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .projectBox,
+  .projectBox1,
+  .projectBox2,
+  .projectBox3,
+  .projectBox4,
+  .projectBox5 {
     text-align: center;
+    max-width: 300px; /* Adjust the width of individual project boxes */
+    margin: 10px; /* Add some margin for spacing between the sections */
   }
-  
-  .projectBox h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .projectBox div {
-    margin-top: 20px;
-  }
-  
-  .projectBox img {
-    max-width: 100%;
-  }
-  
+
+ 
+.projectBox h3,
+.projectBox1 h3,
+.projectBox2 h3,
+.projectBox3 h3, 
+.projectBox4 h3,
+.projectBox5 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.projectBox div,
+.projectBox1 div,
+.projectBox2 div,
+.projectBox3 div,
+.projectBox4 div,
+.projectBox5 div {
+  margin-top: 10px;
+}
+
+.projectBox img,
+.projectBox1 img,
+.projectBox2 img,
+.projectBox3 img, 
+.projectBox4 img,
+.projectBox5 img {
+  max-width: 100%;
+}
