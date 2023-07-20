@@ -35,14 +35,15 @@ nav ul {
   
   .logo h2 {
     margin: 0;
+    color:#1693A5;
   }
   .centerBox {
     display: flex;
     justify-content: center;
     align-items: center;
     /*min-height: 100vh;*/
-    min-height: calc(100vh - 60px);
-    flex-direction:column; /*stck content vertically */
+   /* min-height: calc(100vh - 60px);
+    flex-direction:column; *//*stck content vertically */
   }
   
   .contentBox {
@@ -59,6 +60,7 @@ nav ul {
   
   .contentBox p {
     margin: 0;
+    color:#1693A5;
   }
   /* Existing CSS styles for centerBox, contentBox, and other elements... */
 
@@ -89,6 +91,7 @@ nav ul {
 .projectBox5 h3 {
   font-size: 20px;
   margin-bottom: 10px;
+  color:#1693A5;
 }
 .projectBox div,
 .projectBox1 div,
@@ -107,3 +110,27 @@ nav ul {
 .projectBox5 img {
   max-width: 100%;
 }
+
+footer {
+    background-color: #fffffff;
+    padding: 20px;
+    color: #1693a5;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-links a {
+    color:#1693A5;
+    text-decoration: none;
+    margin-right: 20px; /* Add some space between the links */
+  }
+  
+  .footer-links a:last-child {
+    margin-right: 0; /* Remove margin for the last link to avoid extra spacing */
+  }
+.textbox input{
+    width: 500px;
+}  
